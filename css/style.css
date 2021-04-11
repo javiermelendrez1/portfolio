@@ -17,3 +17,15 @@
     color: white;
     border-radius: 15%;
 }
+#heart {
+    position: relative;
+    top: -20px;
+    left: -50%;
+    color: red;
+    display: none;
+}
+#heart i {
+    width: 100px;
+    height:100px;
+
+}
