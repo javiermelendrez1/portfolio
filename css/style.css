@@ -9,11 +9,54 @@
 }
 #about {
     margin-top: 30%;
+    margin-bottom: 10%;
 }
 #about .col-md:nth-of-type(2){
     margin: 10px;
     padding: 20px;
     background-color: #0dcaf0;
+    box-shadow: 0 8px 6px -6px black;
     color: white;
-    border-radius: 15%;
+}
+#heart {
+    position: relative;
+    top: -20px;
+    left: -50%;
+    color: red;
+    display: none;
+}
+#heart i {
+    width: 100px;
+    height:100px;
+
+}
+#skills {
+    background-color: white;
+    margin-bottom: 10%;
+}
+.card-body {
+    background-color:  #0dcaf0;
+    color: white;
+}
+.card-body {
+    box-shadow: 0 8px 6px -6px black;
+    padding-bottom: 20%;
+    margin-bottom: 10px;
+}
+#connect {
+    box-shadow: 0 8px 6px -6px black;
+
+
+}
+#projects , #myform{
+    margin-bottom: 10%;
+}
+#formButton{
+    background-color: #0dcaf0;
+    box-shadow: 0 8px 6px -6px black;
+    border-color: #0dcaf0;
+}
+#message {
+    margin-bottom: 10px;
+
 }
