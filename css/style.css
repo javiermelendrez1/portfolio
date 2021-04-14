@@ -41,10 +41,22 @@
 .card-body {
     box-shadow: 0 8px 6px -6px black;
     padding-bottom: 20%;
-
+    margin-bottom: 10px;
 }
 #connect {
     box-shadow: 0 8px 6px -6px black;
 
+
+}
+#projects , #myform{
+    margin-bottom: 10%;
+}
+#formButton{
+    background-color: #0dcaf0;
+    box-shadow: 0 8px 6px -6px black;
+    border-color: #0dcaf0;
+}
+#message {
+    margin-bottom: 10px;
 
 }

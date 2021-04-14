@@ -139,7 +139,7 @@
       </div>
     </div>
     </div>
-    <div class="container">
+    <div class="container" id="projects">
       <h2 class="text-center">My Projects</h2>
       <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -184,8 +184,32 @@
 
     </div>
     <footer>
-      <div class="container">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque soluta cupiditate, consequatur delectus quae distinctio perspiciatis mollitia, ad dolores saepe quisquam aliquam sed deserunt quos recusandae in commodi quasi.</h3>
+      <div class="container" id="myform">
+        <h2 class="text-center">Contact</h2>
+        <form action="https://script.google.com/macros/s/AKfycbzwdT-SORLyhi6sez_6ebzk1lS9R42d7uD5UIf54P0Ol5gU6xT9yl_uNUW67zRFZfpE/exec" class="gform" method="POST">
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label for="name">Name
+                </label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter name">  
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="emai">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter email">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" class="form-control" rows="3" placeholder="Enter message"></textarea>
+            </div>
+          </div>
+          <input class="btn btn-primary" type="submit" value="Submit" id="formButton">
+        </form>
       </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
