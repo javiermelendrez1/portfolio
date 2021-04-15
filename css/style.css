@@ -10,7 +10,7 @@
 }
 #about {
     margin-top: 30%;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     font-family: 'Antonio', sans-serif;
 }
 #about .col-md:nth-of-type(2){
@@ -34,7 +34,7 @@
 }
 #skills {
     background-color: white;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     font-family: 'Antonio', sans-serif;
 }
 .card-body {
@@ -52,7 +52,7 @@
 
 }
 #projects , #myform{
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 #formButton{
     background-color: #0dcaf0;
@@ -69,3 +69,10 @@
 .font1 {
     font-family: 'Permanent Marker', cursive;   
 }
+#greeting {
+    margin-top: 10px;
+}
+/* #AboutMe {
+    color: black;
+    background-color: white;
+} */
